@@ -1,8 +1,7 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	Trie
-Summary:	Tree::Trie perl module
-Summary(pl):	Modu³ perla Tree::Trie
+Summary:	Tree::Trie - An implementation of the Trie data structure in Perl
 Name:		perl-Tree-Trie
 Version:	0.4
 Release:	1
@@ -15,10 +14,14 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree::Trie perl module.
-
-%description -l pl
-Modu³ perla Tree::Trie.
+This module implements a trie data structure.  The term "trie" comes from
+the word reB<trie>val, but is generally pronounced like "try".  A trie is
+a tree structure (or directed acyclic graph), the nodes of which represent
+letters in a word.  For example, the final lookup for the word 'bob'
+would look something like C<$ref-E<gt>{'b'}{'o'}{'b'}{HASH(0x80c6bbc)}>
+(the HASH being an end marker).  Only nodes which would represent words
+in the trie exist, making the structure slightly smaller than a hash of
+the same data set.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
