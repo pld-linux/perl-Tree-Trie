@@ -1,8 +1,8 @@
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	Trie
-Summary:	Tree-Trie perl module
-Summary(pl):	Modu³ perla Tree-Trie
+Summary:	Tree::Trie perl module
+Summary(pl):	Modu³ perla Tree::Trie
 Name:		perl-Tree-Trie
 Version:	0.2
 Release:	5
@@ -15,10 +15,10 @@ BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-Tree-Trie perl module.
+Tree::Trie perl module.
 
 %description -l pl
-Modu³ perla Tree-Trie.
+Modu³ perla Tree::Trie.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
