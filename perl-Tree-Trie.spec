@@ -3,7 +3,7 @@ Summary:	Tree-Trie perl module
 Summary(pl):	Modu³ perla Tree-Trie
 Name:		perl-Tree-Trie
 Version:	0.2
-Release:	1
+Release:	2
 License:	GPL
 Group:		Development/Languages/Perl
 Group(de):	Entwicklung/Sprachen/Perl
