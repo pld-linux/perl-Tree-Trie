@@ -3,8 +3,8 @@
 %bcond_without	tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	Tree
-%define	pnam	Trie
+%define		pdir	Tree
+%define		pnam	Trie
 Summary:	Tree::Trie - an implementation of the Trie data structure in Perl
 Summary(pl):	Tree::Trie - implementacja perlowa struktury danych Trie
 Name:		perl-Tree-Trie
