@@ -1,12 +1,11 @@
+%include	/usr/lib/rpm/macros.perl
 %define	pdir	Tree
 %define	pnam	Trie
-%include	/usr/lib/rpm/macros.perl
 Summary:	Tree-Trie perl module
 Summary(pl):	Modu³ perla Tree-Trie
 Name:		perl-Tree-Trie
 Version:	0.2
-Release:	4
-
+Release:	5
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	ftp://ftp.perl.org/pub/CPAN/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
@@ -22,7 +21,7 @@ Tree-Trie perl module.
 Modu³ perla Tree-Trie.
 
 %prep
-%setup -q -n Tree-Trie-%{version}
+%setup -q -n %{pdir}-%{pnam}-%{version}
 
 %build
 perl Makefile.PL
