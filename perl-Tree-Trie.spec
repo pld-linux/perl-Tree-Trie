@@ -5,7 +5,7 @@ Summary:	Tree::Trie - An implementation of the Trie data structure in Perl
 Summary(pl):	Tree::Trie - perlowa implementacja struktury danych Trie
 Name:		perl-Tree-Trie
 Version:	0.4
-Release:	3
+Release:	4
 License:	GPL
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
