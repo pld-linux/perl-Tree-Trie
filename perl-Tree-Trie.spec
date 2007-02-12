@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	Trie
 Summary:	Tree::Trie - an implementation of the Trie data structure in Perl
-Summary(pl):	Tree::Trie - implementacja perlowa struktury danych Trie
+Summary(pl.UTF-8):   Tree::Trie - implementacja perlowa struktury danych Trie
 Name:		perl-Tree-Trie
 Version:	1.2
 Release:	1
@@ -34,15 +34,15 @@ marker). Only nodes which would represent words in the trie exist,
 making the structure slightly smaller than a hash of the same data
 set.
 
-%description -l pl
-Ten modu³ jest implementacj± struktury danych Trie. Termin "trie"
-pochodzi od s³owa "re*trie*val" (odtwarzanie, odzyskiwanie), ale
-jest wymawiany jak angielskie s³owo "try". Trie to struktura
-drzewiasta (lub skierowany graf acykliczny), której wêz³y reprezentuj±
-litery w s³owie. Na przyk³ad, koñcowe wyszukiwanie s³owa "bob" bêdzie
-wygl±daæ podobnie do $ref->{'b'}{'o'}{'b'}{HASH(0x80c6bbc)} (gdzie
-HASH jest znacznikiem koñca). W strukturze istniej± tylko wêz³y
-reprezentuj±ce s³owa, co czyni strukturê mniejsz± ni¿ hasz z tego
+%description -l pl.UTF-8
+Ten moduÅ‚ jest implementacjÄ… struktury danych Trie. Termin "trie"
+pochodzi od sÅ‚owa "re*trie*val" (odtwarzanie, odzyskiwanie), ale
+jest wymawiany jak angielskie sÅ‚owo "try". Trie to struktura
+drzewiasta (lub skierowany graf acykliczny), ktÃ³rej wÄ™zÅ‚y reprezentujÄ…
+litery w sÅ‚owie. Na przykÅ‚ad, koÅ„cowe wyszukiwanie sÅ‚owa "bob" bÄ™dzie
+wyglÄ…daÄ‡ podobnie do $ref->{'b'}{'o'}{'b'}{HASH(0x80c6bbc)} (gdzie
+HASH jest znacznikiem koÅ„ca). W strukturze istniejÄ… tylko wÄ™zÅ‚y
+reprezentujÄ…ce sÅ‚owa, co czyni strukturÄ™ mniejszÄ… niÅ¼ hasz z tego
 samego zbioru danych.
 
 %prep
