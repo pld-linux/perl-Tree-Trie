@@ -6,7 +6,7 @@
 %define		pdir	Tree
 %define		pnam	Trie
 Summary:	Tree::Trie - an implementation of the Trie data structure in Perl
-Summary(pl.UTF-8):   Tree::Trie - implementacja perlowa struktury danych Trie
+Summary(pl.UTF-8):	Tree::Trie - implementacja perlowa struktury danych Trie
 Name:		perl-Tree-Trie
 Version:	1.2
 Release:	1
