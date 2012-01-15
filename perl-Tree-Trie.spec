@@ -8,13 +8,13 @@
 Summary:	Tree::Trie - an implementation of the Trie data structure in Perl
 Summary(pl.UTF-8):	Tree::Trie - implementacja perlowa struktury danych Trie
 Name:		perl-Tree-Trie
-Version:	1.8
+Version:	1.9
 Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/Tree/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	9dd61d25af5e41370e8a011e5a538a5f
+# Source0-md5:	1b823d1896e43279227d65e6ff947d98
 URL:		http://search.cpan.org/dist/Tree-Trie/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
