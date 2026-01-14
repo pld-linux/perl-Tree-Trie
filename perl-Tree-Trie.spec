@@ -8,7 +8,7 @@ Summary:	Tree::Trie - an implementation of the Trie data structure in Perl
 Summary(pl.UTF-8):	Tree::Trie - implementacja perlowa struktury danych Trie
 Name:		perl-Tree-Trie
 Version:	1.9
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
